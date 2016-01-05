@@ -1,0 +1,19 @@
+# File name: main.py
+#:kivy 1.9.1
+
+<Button>:
+	font_size: 40
+
+<SelectionScreen>:
+	cols: 4
+	padding: 25
+	spacing: 25
+	
+	Button:
+		text: "Gin & Tonic"
+		on_press: root.makeGT()
+		
+	Button:
+		text: "Whiskey Ginger"
+		on_press: root.makeWG()
+	
